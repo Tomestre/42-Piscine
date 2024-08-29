@@ -38,14 +38,13 @@ char	*ft_strstr(char *str, char *to_find)
 		}
 		i++;
 	}
-	return ((void *)0);
+	return (0);
 }
-
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main() {
     char str[] = "Hello wolle, world! , crazy world\n";
-    char to_find[] = "worl";
+    char to_find[] = "cra";
 	char str1[] = "";
 
     // Teste para encontrar a substring
@@ -60,4 +59,4 @@ int main() {
     }
     
     return 0;
-}*/
+}
