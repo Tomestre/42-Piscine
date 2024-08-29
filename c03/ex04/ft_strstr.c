@@ -6,7 +6,7 @@
 /*   By: gtome-ve <gtome-ve@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/27 22:34:44 by gtome-ve          #+#    #+#             */
-/*   Updated: 2024/08/28 20:35:46 by gtome-ve         ###   ########.fr       */
+/*   Updated: 2024/08/28 16:42:59 by gtome-ve         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ char	*ft_strstr(char *str, char *to_find)
 	return ((void *)0);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
     char str[] = "Hello wolle, world! , crazy world\n";
@@ -60,4 +60,4 @@ int main() {
     }
     
     return 0;
-}
+}*/
